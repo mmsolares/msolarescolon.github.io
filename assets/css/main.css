@@ -1787,7 +1787,7 @@ input, select, textarea {
 
 	header.major h2 {
 		/* color: #4acaa8; */
-		color: #16c294;
+		color: #16c294; /* Greenish color for name in homepage */
 		font-size: 3.0em;
 	}
 
@@ -2202,7 +2202,8 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 78vh;
+			height: 50em;
+			/* height: 80vh; */
 			border-radius: 0;
 		}
 
@@ -2704,7 +2705,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		/* background: #4acaa8;		 */
-		background: #16c294;				
+		background: #16c294;  /* Greenish color for background vertical box right lateral */				
 		/* background: #ca3e1b; */
 		/* color: #d2f2e9; */
 		color: #d2f2e9;
