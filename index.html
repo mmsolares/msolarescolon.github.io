@@ -145,7 +145,7 @@
 										<div class="event">
 											<h4>Postdoctoral Researcher | The Ohio State University & CRESCENT</h4>
 											<p style="margin-bottom: 2px;">Supervisor: Brendan Crowell</p>
-											<ul style="margin: 0; padding: 0;">
+											<ul style="margin: 0; padding: 18px;">
 												<li style="margin-bottom: 5px;"> Currently working on advanced seismogeodetic techniques to characterize slow slip and strain accumulation in the Cascadia subduction zone.</li>
 											</ul>
 										</div>
@@ -155,7 +155,7 @@
 										<div class="event">
 											<h4>Intern | US Geological Survey - NEIC</h4> 
 											<p style="margin-bottom: 2px;">Supervisor: Dara Goldberg and Will Yeck</p>
-											<ul style="margin: 0; padding: 0;">
+											<ul style="margin: 0; padding: 18px;">
 												<li style="margin-bottom: 5px;"> Working on NEIC slip model database of significant events to improve or create finite-fault models using seismic and geodetic observations. </li>
 											</ul>
 										</div>
@@ -165,7 +165,7 @@
 										<div class="event">
 											<h4>Research Assistant I | Puerto Rico Seismic Network</h4>
 											<p style="margin-bottom: 2px;">Supervisor: Gisela Báez and Víctor Huérfano</p>
-											<ul style="margin: 0; padding: 0;">
+											<ul style="margin: 0; padding: 18px;">
 												<li style="margin-bottom: 0;">Processed and reviewed seismic and geodetic data for local and regional earthquakes.</li>
 												<li style="margin-bottom: 0;">Prepared and disseminated reports for felt earthquakes and tsunami alerts within our Area of Responsibility (AOR).</li>
 												<li style="margin-bottom: 0;">Supported GPS network maintenance and contributed to AQMS integration into operational workflows.</li>
@@ -180,42 +180,79 @@
 										</div>
 									</li>
 								</ul>
-								<style>
-									.timeline {
-										position: relative;
-										padding: 20px 0;
-									}
-									.timeline li {
-										list-style: none;
-										position: relative;
-										padding: 20px 0;
-									}
+							</div>
+							<style>
+
+								/* .timeline {
+									position: relative;
+									padding: 20px 0;
+								}
+								.timeline li {
+									list-style: none;
+									position: relative;
+									padding: 20px 0;
+								}
+								.timeline li .timestamp {
+									position: relative;
+									left: -60px;
+									width: 50px;
+									text-align: center;
+									font-weight: bold;
+								}
+								.timeline li .event {
+									margin-left: 60px;
+									padding-left: 20px;
+									border-left: 2px dotted #ccc;
+								}
+
+								@media (max-width: 600px) {
 									.timeline li .timestamp {
-										position: absolute;
-										left: -60px;
-										width: 50px;
-										text-align: center;
-										font-weight: bold;
+									position: relative;
+									left: 0;
+									width: auto;
+									text-align: left;
+									margin-bottom: 6px;
 									}
 									.timeline li .event {
-										margin-left: 60px;
-										padding-left: 20px;
-										border-left: 2px dotted #ccc;
+									margin-left: 0;
+									padding-left: 12px;
+									border-left: 2px dotted #ccc;
 									}
-									@media (max-width: 600px) {
-										.timeline li .timestamp {
-											left: 0;
-											width: auto;
-											text-align: left;
-											font-weight: normal;
-										}
-										.timeline li .event {
-											margin-left: 0;
-											padding-left: 0;
-											border-left: none;
-										}
-									}
-								</style>
+								} */
+
+								.timeline { position: relative; padding: 20px 0; }
+								.timeline li { list-style: none; position: relative; padding: 20px 0; }
+
+								.timeline li .timestamp {
+								position: absolute;
+								left: -60px;
+								width: 50px;
+								text-align: center;
+								font-weight: bold;
+								}
+
+								.timeline li .event {
+								margin-left: 60px;
+								padding-left: 20px;
+								border-left: 2px dotted #ccc;
+								}
+
+								/* Mobile fix 1 */
+								@media (max-width: 600px) {   /* try 800 first for desktop testing */
+								.timeline li .timestamp {
+									position: relative;
+									left: 0;
+									width: auto;
+									text-align: left;
+									margin-bottom: 6px;
+								}
+								.timeline li .event {
+									margin-left: 0;
+									padding-left: 12px;
+								}
+								}
+
+							</style>
 							</section>
 						<!-- Two -->
 							<section id="research">
